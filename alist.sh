@@ -13,8 +13,8 @@ cat >/opt/alist/data/config.json <<EOF
     "host": "$DSQLHOST",
     "port": $ESQLPORT,
     "name": "$FSQLNAME",
-	"ssl_mode": "require",
-    "table_prefix": "axl_",
+    "ssl_mode": "require",
+    "table_prefix": "alis_",
     "db_file": "data.db"
   },
   "scheme": {
